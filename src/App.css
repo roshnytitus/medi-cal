@@ -1,4 +1,75 @@
-.App {
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #fff9ea;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  margin-left: 270px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0; 
+  font-size: 24px; 
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+  /* Add your logo styling here */
+}
+
+main {
+  display: flex;
+  flex: 1;
+  margin-left: 300px;
+  z-index: 1;
+  position: relative;
+}
+
+.sidebar {
+  background-color: #ffecbc;
+  width: 270px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +106,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
