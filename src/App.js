@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+// import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import Navbar from './Navbar';
-import Home from './Home';
+// import Navbar from './Navbar';
+// import Home from './Home';
 import Calendar from './Calendar';
 import Sidebar from './Sidebar';
 

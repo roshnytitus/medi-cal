@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import React from 'react';
 import logo from './logo.png';
 
@@ -18,10 +18,10 @@ const Sidebar = () => {
         <nav>
           <ul>
             <li><img src={logo} alt="MediCal" /></li>
-            <li><a href="#">Calendar</a></li>
-            <li><a href="#">Medication Alerts</a></li>
-            <li><a href="#">Reminders</a></li>
-            <li><a href="#">Care Coordination</a></li>
+            <li><a href="/calendar">Calendar</a></li>
+            <li><a href="/medication">Medication Alerts</a></li>
+            <li><a href="/reminders">Reminders</a></li>
+            <li><a href="/care">Care Coordination</a></li>
           </ul>
         </nav>
         </aside>
